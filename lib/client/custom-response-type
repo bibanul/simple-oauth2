@@ -25,7 +25,7 @@ module.exports = function (config) {
   /**
    * Returns the Access Token Object
    * @param  {Object}   params
-   *         params.code - Authorization code/key (from previous step)
+   *         params[response_type] - Authorization code/key (from previous step)
    *         params.redirecURI - A string that represents the callback uri
    *         params.grant_type - Generally in the format 'authorization_' + params.response_type as perhttps://tools.ietf.org/html/rfc6749#section-8.4
    * @param  {Function} callback the callback function returning the results
